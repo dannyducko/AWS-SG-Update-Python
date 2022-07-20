@@ -34,7 +34,7 @@ def des_sg(ip):
 
 def run_sg_replace():
     myip()
-    sg_question = input(f"Would you like to replace your SG Rule to {my_ip}? (y or n)\n... ")
+    sg_question = input(f"Would you like to amend your SG Rule to include {my_ip}? (y or n)\n... ")
     if sg_question == "y" or "Y":
         des_sg(my_ip)
         #print("Successfully added")
